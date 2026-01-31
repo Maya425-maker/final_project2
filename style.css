@@ -1,0 +1,136 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+    color: #3a2a4a;
+    background-color: burlywood;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 24px 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(240, 188, 119);
+    border-bottom: 1px solid rgba(233, 153, 48, 0.705);
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 6px;
+    font-size: 32px;
+}
+
+header p {
+    margin: 0;
+    color:#3a2a4a
+}
+
+main .container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+form {
+    display: block;
+}
+
+.question { /* контейнер с вопросом и ответами */
+    border: 1px solid rgba(58, 42, 74, 0.12);
+    border-radius: 12px;
+    padding: 14px 16px;
+    background: #fff;
+}
+
+.answer { /* контейнер с вариантом ответа */
+    border: 1px solid rgba(128, 125, 125, 0.774);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    margin-bottom: 8px;
+}
+
+.answer label { /* текст варианта ответа */
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.radio { /* вариант ответа */
+    width: 18px;
+    height: 18px;
+}
+
+.actions { /* контейнер с кнопкой */
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.primary { /* кнопка */
+    border: none;
+    border-radius: 12px;
+    padding: 16px;
+    background: #dd8613;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.result { /* результат */
+    margin-top: 12px;
+    padding: 12px 14px;
+    border: 2px dashed rgba(58, 42, 74, 0.18);
+    border-radius: 12px;
+    min-height: 44px;
+    background: #fff;
+}
+
+footer {
+    color: #6a5b7a;
+    text-align: center;
+}
+
+.checked{
+    background: linear-gradient(180deg, #f5e500, #ecc30a);
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+    color: #3a2a4a;
+    font-weight: bold;
+    font-size: large;
+}
+
+#username{
+    border-radius: 6px;
+    padding: 8px 5px;
+}
+
+.charecter{
+    font-weight: 300;
+    text-align: left;
+}
